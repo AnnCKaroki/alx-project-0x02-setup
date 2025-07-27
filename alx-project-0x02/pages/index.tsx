@@ -1,13 +1,3 @@
-import React from 'react'
-import Card from '../components/common/Card'
-
-const HomePage: React.FC =() => {
-  return(
-    <>
-    <h1>Welcome</h1>
-    <Card title="Learn by doing" content="Do hard things!" />
-    </>
-  )
+export default function Home() {
+  return <div></div>;
 }
-
-export default HomePage;
