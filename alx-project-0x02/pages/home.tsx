@@ -3,6 +3,7 @@ import {useState} from 'react';
 import Card from "@/components/common/Card";;
 import PostModal from '@/components/common/PostModal';
 import { CardProps } from '@/interfaces';
+import Header from "@/components/layout/Header"
 
 
 const HomePage: React.FC =() => {
@@ -37,6 +38,8 @@ const HomePage: React.FC =() => {
         onClose={() => setIsModalOpen(false)}
         onSubmit={handleAddPost}
       />
+
+      <Header />
     </>
   )
 }
