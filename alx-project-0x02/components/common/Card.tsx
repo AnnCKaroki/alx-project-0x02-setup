@@ -1,7 +1,7 @@
 import React from 'react';
 import type { CardProps } from '../../interfaces'
 
-const Card: React.FC<CardProps> = ({title, content}) => {
+export default function Card({title, content}: CardProps) {
     return (
         <div>
             <h2>{title}</h2>
@@ -9,5 +9,3 @@ const Card: React.FC<CardProps> = ({title, content}) => {
         </div>
     )
 }
-
-export default Card
